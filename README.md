@@ -16,24 +16,26 @@ It should be able to turn on and off, display the track count on the display, I 
 
 ### Main Components
 
-| Part                            | Qty | Purpose                                              | Notes                                     |
-| ------------------------------- | --- | ---------------------------------------------------- | ----------------------------------------- |
-| Arduino Nano                    | 1   | Main controller, used for speaking with the DFPlayer |                                           |
-| DFPlayer Mini MP3 Module        | 1   | Audio playback module                                |                                           |
-| Micro SD card                   | 1   | Holds the songs and inserts into the DFPlayer        |                                           |
-| 1.3" OLED LCD Display (SSH1106) | 1   | Display for songs and controls                       |                                           |
-| TP4056 Charging Module          | 1   | Charge the battery pack and supply power to build    |                                           |
-| 3.7V Rechargeable Battery       | 1   | supply power to build                                |                                           |
-| 3.5mm Audio jack                | 1   | Allow headphones for audio playback                  |                                           |
-| JST-PH 2.0 Male Connector Cable | 1   | Connect battery to charging module                   |                                           |
-| Push Buttons                    | 4   | Navigating the display, play/pause, volume up/down   | Can I use a button to turn on MP3 Player? |
+| Part                            | Qty | Purpose                                              | Notes |
+| ------------------------------- | --- | ---------------------------------------------------- | ----- |
+| Arduino Nano                    | 1   | Main controller, used for speaking with the DFPlayer |       |
+| DFPlayer Mini MP3 Module        | 1   | Audio playback module                                |       |
+| Micro SD card                   | 1   | Holds the songs and inserts into the DFPlayer        |       |
+| 1.3" OLED LCD Display (SSH1106) | 1   | Display for songs and controls                       |       |
+| TP4056 Charging Module          | 1   | Charge the battery pack and supply power to build    |       |
+| 3.7V Rechargeable Battery       | 1   | supply power to build                                |       |
+| 3.5mm Audio jack                | 1   | Allow headphones for audio playback                  |       |
+| JST-PH 2.0 Male Connector Cable | 1   | Connect battery to charging module                   |       |
+| Push Buttons                    | 3   | Navigating the display, play/pause, volume up/down   |       |
+| SPDT mini switch                | 1   | Turning power supply on/off                          |       |
+| MT3068 Boost Converter          | 1   | Boost voltage to power Arduino properly              |       |
 
 ### Other supplies needed
 
 1 x 1k Ohm Resistor
-2 x 10uF Capacitor
-PCB Board
-Soldering kit
+2 x 10uF Capacitor\
+PCB Board\
+Soldering kit\
 
 ## Diagrams and Photos
 
