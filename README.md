@@ -67,7 +67,7 @@ Each button connects its Nano pin to GND.
 - All three pins use `INPUT_PULLUP`, so the Nano's internal pull-up resistor holds each pin HIGH when the button is not pressed. This removes the need for external pull-up resistors.
 - Pressing a button connects the pin to ground, so it reads LOW. This is "active low": LOW means pressed.
 - The sketch compares each pin's current reading to its previous reading. A change from HIGH to LOW counts as one press, and a line is printed to the serial monitor, for example `Select Button Pressed`.
-**Serial monitor screenshot:** ![Phase 1 serial output](Images/Serial_Monitor.jpeg)
+**Serial monitor screenshot:** ![Phase 1 serial output](Images/Serial_Monitor.png)
  
 **Code:** [Sketch_MP3_Player.ino](Firmware/Sketch_MP3_Player.ino)
  
